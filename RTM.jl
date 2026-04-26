@@ -47,7 +47,6 @@ const SPILL_PENALTY = 1.0
 # PMIN_SCALE = 0.0 -> 기존처럼 Pmin = 0
 # PMIN_SCALE = 0.5 -> Economic Min의 50% 적용
 # PMIN_SCALE = 1.0 -> Economic Min 전체 적용
-# APPLY_PMIN_ONLY_TO_ONLINE_UNITS = true 이면 해당 5분 cleared MW > 0인 발전기만 Pmin 적용
 # =========================================================
 const PMIN_SCALE = 0.5
 const APPLY_PMIN_ONLY_TO_ONLINE_UNITS = true
